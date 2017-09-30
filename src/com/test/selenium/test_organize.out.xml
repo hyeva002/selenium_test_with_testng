@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestBaidu" verbose="1">
+  <test name="TestBaiduSearch">
+	<parameter name="URL" value="http://testng.org/" />
+    <classes>
+       <class name="com.test.selenium.TestBaiduSearch">
+	   </class>
+    </classes>
+  </test>
+</suite>
